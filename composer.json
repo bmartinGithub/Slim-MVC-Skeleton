@@ -1,14 +1,20 @@
 {
-    "name": "slim/slim-skeleton",
+    "name": "bmartinGithub/slim-mvc-skeleton",
     "description": "A Slim Framework skeleton application for rapid development",
     "keywords": ["microframework", "rest", "router", "psr7"],
-    "homepage": "http://github.com/slimphp/Slim-Skeleton",
+    "homepage": "http://github.com/bmartinGithub/Slim-MVC-Skeleton",
     "license": "MIT",
     "authors": [
         {
             "name": "Josh Lockhart",
             "email": "info@joshlockhart.com",
             "homepage": "http://www.joshlockhart.com/"
+        },
+        {
+            "name":"Bruce Martin",
+            "email":"bruce@martinsolution.com",
+            "homepage":"you don't want to see that it's way out dated.",
+            "forker":"true"
         }
     ],
     "require": {
