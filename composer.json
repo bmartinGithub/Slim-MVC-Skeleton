@@ -1,14 +1,14 @@
 {
     "name": "bmartinGithub/slim-mvc-skeleton",
-    "description": "A Slim Framework skeleton application for rapid development",
+    "description": "A Slim Framework skeleton application for rapid development forked from slimphp/skim-skeleton.",
     "keywords": ["microframework", "rest", "router", "psr7", "mvc"],
-    "homepage": "http://github.com/bmartinGithub/Slim-MVC-Skeleton",
+    "homepage": "https://github.com/bmartinGithub/Slim-MVC-Skeleton.git",
     "license": "MIT",
     "authors": [
         {
             "name":"Bruce Martin",
             "email":"bruce@martinsolution.com",
-            "homepage":"http://you-don't-want-to-see-that-it's-way-out-dated.com"
+            "homepage":"http://you-dont-want-to-see-that-its-way-out-dated.com"
         },
         {
             "name": "Josh Lockhart",
