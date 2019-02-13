@@ -1,0 +1,55 @@
+{# Created by IntelliJ IDEA. #}
+{# Project: parkerforrep.com #}
+{# User: brucemartin #}
+{# Date: 4/30/18 #}
+{# Time: 6:54 PM #}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {#<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">#}
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    {#<title>{{ data.title }} {{ data.bodyTitle }}</title>#}
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">    {#<link rel="stylesheet" href="{{ base_url() }}fonts/font-awesome-4.7.0/css/font-awesome.css">#}
+    {#<link href='{{ base_url() }}/css/style.css' rel='stylesheet' type='text/css'>#}
+    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template -->
+
+    {% if is_current_path('landingPage') %}
+    <link href="{{ base_url() }}/css/landing-page.min.css" rel="stylesheet">
+    {% else %}
+    <link href="{{ base_url() }}/css/full-width-pics.css" rel="stylesheet">
+    {% endif %}
+</head>
+
+<body id="{% block bodyId %}{% endblock %}">
+{% include 'components/navHeader.twig' %}
+{% block content %}{% endblock %}
+{% include 'components/footer.twig' %}
+
+
+
+{#<script src="{{ base_url() }}js/rbbc.js"></script>#}
+{#{% if config.google_analytics_id is defined and config.google_analytics_id %}#}
+{#<script>#}
+{#window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;#}
+{#ga('create','{{ config.google_analytics_id }}','auto');ga('send','pageview')#}
+{#</script>#}
+{#<script src="https://www.google-analytics.com/analytics.js" async defer></script>#}
+{#{% endif %}#}
+{% block ScriptAdditions %}
+{% endblock %}
+</body>
+</html>

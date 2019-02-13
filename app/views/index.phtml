@@ -34,5 +34,12 @@
         <?php else: ?>
             <p>Try <a href="http://www.slimframework.com">SlimFramework</a></p>
         <?php endif; ?>
+        <?php if(isset($model)): ?>
+
+        <?php foreach($model as $record):?>
+                <?php echo "<pre>".print_r($record,true)."</pre>"; ?>
+
+        <?php endforeach; ?>
+    <?php endif; ?>
     </body>
 </html>
