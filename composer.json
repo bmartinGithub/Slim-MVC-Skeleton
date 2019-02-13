@@ -1,34 +1,43 @@
 {
     "name": "bmartinGithub/slim-mvc-skeleton",
     "description": "A Slim Framework skeleton application for rapid development",
-    "keywords": ["microframework", "rest", "router", "psr7"],
+    "keywords": ["microframework", "rest", "router", "psr7", "mvc"],
     "homepage": "http://github.com/bmartinGithub/Slim-MVC-Skeleton",
     "license": "MIT",
     "authors": [
         {
+            "name":"Bruce Martin",
+            "email":"bruce@martinsolution.com",
+            "homepage":"http://you-don't-want-to-see-that-it's-way-out-dated.com"
+        },
+        {
             "name": "Josh Lockhart",
             "email": "info@joshlockhart.com",
             "homepage": "http://www.joshlockhart.com/"
-        },
-        {
-            "name":"Bruce Martin",
-            "email":"bruce@martinsolution.com",
-            "homepage":"you don't want to see that it's way out dated.",
-            "forker":"true"
         }
     ],
     "require": {
-        "php": ">=5.6",
+        "php": ">=7.1",
         "slim/slim": "^3.1",
         "slim/php-view": "^2.0",
-        "monolog/monolog": "^1.17"
+        "monolog/monolog": "^1.17",
+        "illuminate/database": "~5.1",
+        "slim/twig-view": "^2.4.0",
+        "slim/csrf": "^0.8.3"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master",
         "phpunit/phpunit": ">=5.0"
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "App\\":"app/",
+            "App\\Views\\":"app/views",
+            "App\\Controllers\\":"app/controllers",
+            "App\\Lib\\ControllerTraits\\":"app/lib/controllerTraits",
+            "App\\Models\\":"app/models",
+            "App\\Lib\\":"app/lib"
         }
     },
     "config": {
