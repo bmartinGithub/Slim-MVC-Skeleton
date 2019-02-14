@@ -35,7 +35,7 @@
             "App\\":"app/",
             "App\\Views\\":"app/views",
             "App\\Controllers\\":"app/controllers",
-            "App\\Lib\\ControllerTraits\\":"app/lib/controllerTraits",
+            "App\\Lib\\Traits\\": "app/lib/traits",
             "App\\Models\\":"app/models",
             "App\\Lib\\":"app/lib"
         }

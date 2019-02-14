@@ -10,14 +10,14 @@ $config = [
         'addContentLengthHeader' => false, // Allow the web server to send the content-length header
 
         'db' => [
-            'driver' => 'mysql',
-            'host' => 'localhost',
-            'database' => 'slim_cms',
-            'username' => 'slim_usr',
-            'password' => '',
-            'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix'    => 'slim_',
+//            'driver' => 'mysql',
+//            'host' => 'localhost',
+//            'database' => 'slim_cms',
+//            'username' => 'slim_usr',
+//            'password' => '',
+//            'charset'   => 'utf8',
+//            'collation' => 'utf8_unicode_ci',
+//            'prefix'    => 'slim_',
         ],
         // Renderer settings
         //php-view

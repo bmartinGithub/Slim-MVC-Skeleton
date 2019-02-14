@@ -13,7 +13,7 @@ use Slim\Http\Response;
 
 abstract class BaseController
 {
-    use \App\Lib\ControllerTraits\BaseTraits;
+    use \App\Lib\Traits\BaseTraits;
     /******** Properties ********/
     /**
      * @var App

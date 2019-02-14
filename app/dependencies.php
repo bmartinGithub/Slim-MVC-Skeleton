@@ -38,15 +38,16 @@ $container['logger'] = function ($c) {
 };
 
 //Eloquent
-$container['db'] = function ($container) {
-    $capsule = new \Illuminate\Database\Capsule\Manager;
-    $capsule->addConnection($container['settings']['db']);
-
-    $capsule->setAsGlobal();
-    $capsule->bootEloquent();
-
-    return $capsule;
-};
+//$container['db'] = function ($container) {
+//    $capsule = new \Illuminate\Database\Capsule\Manager;
+//    if(!empty($container['settings']['db'])) {
+//        $capsule->addConnection($container['settings']['db']);
+//
+//        $capsule->setAsGlobal();
+//        $capsule->bootEloquent();
+//    }
+//    return $capsule;
+//};
 
 //Models
 //example
@@ -67,7 +68,7 @@ $container['errorHandler'] = function ($c) {
     return function ($request, $response, $exception) use ($c) {
         return $response->withStatus(500)
             ->withHeader('Content-Type', 'text/html')
-            ->write("<p>".$exception->message."</p><br><pre>".print_r($exception,true)."</pre>");
+            ->write("<p>".$exception->getMessage()."</p><br><pre>".print_r($exception,true)."</pre>");
     };
 };
 

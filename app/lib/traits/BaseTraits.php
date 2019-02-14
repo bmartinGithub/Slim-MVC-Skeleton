@@ -6,7 +6,7 @@
  * Time: 10:37 AM
  */
 
-namespace App\Lib\ControllerTraits;
+namespace App\Lib\Traits;
 
 
 trait BaseTraits

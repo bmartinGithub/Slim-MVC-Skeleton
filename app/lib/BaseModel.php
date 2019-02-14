@@ -13,6 +13,8 @@ use Psr\Container\ContainerInterface;
 
 class BaseModel
 {
+    use Traits\BaseTraits;
+
     protected  $table;
     protected $tableName;
 
