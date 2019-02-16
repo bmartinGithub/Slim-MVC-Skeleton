@@ -2,4 +2,5 @@
 /logs/*
 /.idea/
 /cache/*
+!/cache/README.md
 !/logs/README.md
