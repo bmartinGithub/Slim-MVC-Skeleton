@@ -10,7 +10,7 @@ namespace App\Controllers;
 
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use App\Lib\BaseController;
+use Lib\BaseController;
 
 class HomeController extends BaseController
 {

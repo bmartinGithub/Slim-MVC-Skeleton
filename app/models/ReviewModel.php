@@ -8,9 +8,9 @@
 
 namespace App\Models;
 
+use \Lib\BaseModel;
 
-
-class ReviewModel extends \App\Lib\BaseModel
+class ReviewModel extends BaseModel
 {
 
 

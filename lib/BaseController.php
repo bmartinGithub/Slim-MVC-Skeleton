@@ -6,14 +6,14 @@
  * Time: 10:39 AM
  */
 
-namespace App\Lib;
+namespace Lib;
 use Slim\Http\Request;
 use Psr\Container\ContainerInterface;
 use Slim\Http\Response;
 
 abstract class BaseController
 {
-    use \App\Lib\Traits\BaseTraits;
+    use \Lib\Traits\BaseTraits;
     /******** Properties ********/
     /**
      * @var App

@@ -6,14 +6,14 @@
  * Time: 22:50
  */
 
-namespace App\Lib;
+namespace Lib;
 
 use Illuminate\Database\Query\Builder;
 use Psr\Container\ContainerInterface;
 
 class BaseModel
 {
-    use Traits\BaseTraits;
+    use \Lib\Traits\BaseTraits;
 
     protected  $table;
     protected $tableName;

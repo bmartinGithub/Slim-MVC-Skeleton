@@ -6,7 +6,7 @@
  * Time: 10:37 AM
  */
 
-namespace App\Lib\Traits;
+namespace Lib\Traits;
 
 
 trait BaseTraits
