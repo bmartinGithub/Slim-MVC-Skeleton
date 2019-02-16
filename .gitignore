@@ -2,5 +2,16 @@
 /logs/*
 /.idea/
 /cache/*
+/app/*
+/app/controllers/*
+/app/models/*
+/app/views/*
+/app/views/components/*
+/app/views/layouts/*
+!/app/controllers/README.md
+!/app/models/README.md
+!/app/views/README.md
+!/app/views/components/README.md
+!/app/views/layouts/README.md
 !/cache/README.md
 !/logs/README.md
