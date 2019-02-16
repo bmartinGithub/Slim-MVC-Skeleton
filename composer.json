@@ -39,11 +39,11 @@
         "psr-4": {
             "Tests\\": "tests/",
             "App\\":"app/",
+            "App\\Models\\":"app/models",
             "App\\Views\\":"app/views",
             "App\\Controllers\\":"app/controllers",
-            "App\\Lib\\Traits\\": "app/lib/traits",
-            "App\\Models\\":"app/models",
-            "Lib\\":"lib"
+            "Lib\\":"lib",
+            "Lib\\Traits\\": "lib/traits"
         }
     },
     "config": {
